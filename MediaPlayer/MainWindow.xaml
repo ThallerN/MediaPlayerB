@@ -20,7 +20,7 @@
         <ListBox x:Name="list_Playlist" HorizontalAlignment="Left" Height="720" Margin="10,10,0,0" VerticalAlignment="Top" Width="280" SelectionChanged="list_Playlist_SelectionChanged_1"/>
         <Button x:Name="btn_playlistAdd" Content="Add to Playlist" HorizontalAlignment="Left" Margin="10,775,0,90" Width="280" Click="PlaylistAdd" BorderBrush="{x:Null}"/>
         <Button x:Name="btn_openFile" Command="ApplicationCommands.Open" Content="Open File" HorizontalAlignment="Left" Height="63" Margin="1004,761,0,0" VerticalAlignment="Top" Width="200" BorderBrush="{x:Null}"/>
-        <Label x:Name="lbl_filename" Content=" " HorizontalAlignment="Left" Margin="358,829,0,0" VerticalAlignment="Top" Width="1063" Height="26"/>
+        <Label x:Name="lbl_filename" Content=" " HorizontalAlignment="Left" Margin="336,829,0,0" VerticalAlignment="Top" Width="1085" Height="26"/>
         <Label Content="Pfad:" HorizontalAlignment="Left" Margin="295,829,0,0" VerticalAlignment="Top" Height="26" Width="36"/>
         <Slider x:Name="sli_Progress" Thumb.DragStarted="sli_Progress_DragStarted"  Thumb.DragCompleted="sli_Progress_DragCompleted" ValueChanged="sli_Progress_ValueChanged" HorizontalAlignment="Left" Margin="300,735,0,0" VerticalAlignment="Top" Width="904" Height="26"/>
         <Grid Margin="0,0,10,0">
